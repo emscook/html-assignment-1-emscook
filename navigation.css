@@ -1,0 +1,149 @@
+.navbar {
+  background:rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0 10%;
+  text-align: center;
+  width: auto;
+}
+
+.pagebar {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  width: auto;
+}
+
+.pagebar-item {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  font: "Segoe UI";
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.container-two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.33vh 10vw  0vh 10vw;
+}
+
+.navbar-nav {
+  z-index: 1003;
+  display: flex;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.navbar-item {
+  z-index: 1004;
+  text-decoration: none;
+  font-size: 15px;
+  font: "Segoe UI";
+  font-weight: bold;
+  color: #66757f !important;
+}
+
+.navbar-bend{
+  text-decoration: none;
+  font-size: 15px;
+  font: "Segoe UI";
+  font-weight: bold;
+  color: #66757f !important;
+}
+
+.weak-item {
+  align-items: center;
+  display:flex;
+  text-decoration: none;
+  font-size: 15px;
+  font: "Segoe UI";
+  font-weight: bold;
+  color: inherit
+}
+
+.navbar-item:hover {
+  background:rgb(255, 255, 255);
+  color: #1DA1F2 !important;
+  border-bottom: 2px solid #1DA1F2 !important;
+}
+
+.weak-item:hover {
+  background:rgb(255, 255, 255);
+  color: #1DA1F2 !important;
+}
+
+.fa{
+  padding-right: 15px;
+}
+
+.circle{
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+  border-color: #000000;
+}
+
+span .mySearch-icon{
+  display:flex;
+  flex-direction: row;
+  cursor: pointer;
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  width: 26px;
+  font-size: 12px;
+    
+}
+
+button .mySearch-button{
+  display:flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: #66757f;
+  font-size: 18px;
+  transition: box-shadow .15s ease-in-out;
+  overflow: visible;
+  text-align: center;
+  background: transparent;
+  font-style: normal;
+  vertical-align: baseline;
+  position: relative;
+}
+
+#search-input{
+  border: none;
+  background: transparent;
+  font-size: 1.5em;
+}
+
+.search-item{
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#search{
+  height:50%;
+  top:25%;
+  align-items: center;
+  background-color: #f5f8fa;
+  -webkit-border-radius: 20px; 
+  -moz-border-radius: 20px; 
+  border-radius: 21px;
+  font-size: 12px;
+}
